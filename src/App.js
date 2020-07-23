@@ -1,23 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import UserContainer from './container/UserContainer'
 import Jumbotron from './components/Jumbotron/Jumbotron';
-import Employee from './components/Employee/Employee';
 import Wrapper from './components/Wrapper';
 import SearchBar from './components/Searchbar/SearchBar';
 
 
 function App() {
   return (
-    <Router>
         <div>
           <Jumbotron />
           <SearchBar />
           <br />
           <Wrapper>
-          <Route exact path="/" component={Employee} />
+          <UserContainer />
           </Wrapper>
         </div>
-    </Router>
   );
 }
 
