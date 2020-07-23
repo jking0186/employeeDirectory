@@ -5,7 +5,12 @@ function SearchBar() {
         <div className="container">
         <div className="row justify-content-center">
             <div className="col-lg-4 col-md-4 col-sm-6">
-                <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Employee Search"></input>
+                <input 
+                type="text" 
+                className="form-control" 
+                id="formGroupExampleInput" 
+                placeholder="Employee Search"
+                />
             </div>
         </div>
         </div>
